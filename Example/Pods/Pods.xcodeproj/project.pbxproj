@@ -32,9 +32,14 @@
 		A1059D8AD58C780D28578DD467DCE438 /* PhotoEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7AA98953538FA717E408EA54840EBC /* PhotoEditorViewController.swift */; };
 		A142038E50F465ED23C4F6063224BDFD /* PhotoEditor+UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0B2880B92B68458F1E26579727B184 /* PhotoEditor+UITextView.swift */; };
 		A58069605A81C624B0FF38035D448308 /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7825A90E082A1582EB16256B0E722B3F /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AF002237249BBB7A00887B8D /* ic_done@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF002234249BBB7900887B8D /* ic_done@2x.png */; };
-		AF002238249BBB7A00887B8D /* ic_done@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF002235249BBB7A00887B8D /* ic_done@3x.png */; };
-		AF002239249BBB7A00887B8D /* ic_done.png in Resources */ = {isa = PBXBuildFile; fileRef = AF002236249BBB7A00887B8D /* ic_done.png */; };
+		AF002244249C159900887B8D /* icomoon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF002243249C159900887B8D /* icomoon.ttf */; };
+		AF002245249C159900887B8D /* icomoon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF002243249C159900887B8D /* icomoon.ttf */; };
+		AF002252249C167100887B8D /* ic_done.png in Resources */ = {isa = PBXBuildFile; fileRef = AF00224F249C167000887B8D /* ic_done.png */; };
+		AF002253249C167100887B8D /* ic_done.png in Resources */ = {isa = PBXBuildFile; fileRef = AF00224F249C167000887B8D /* ic_done.png */; };
+		AF002254249C167100887B8D /* ic_done@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF002250249C167000887B8D /* ic_done@3x.png */; };
+		AF002255249C167100887B8D /* ic_done@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF002250249C167000887B8D /* ic_done@3x.png */; };
+		AF002256249C167100887B8D /* ic_done@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF002251249C167100887B8D /* ic_done@2x.png */; };
+		AF002257249C167100887B8D /* ic_done@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF002251249C167100887B8D /* ic_done@2x.png */; };
 		AF07B74A4FCFE84BCF7E8B5A38F97110 /* PhotoEditor+Controls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426EC21F620458AF94E15B4946CFABB7 /* PhotoEditor+Controls.swift */; };
 		BD2881D8EBCB73D94D5B284039B73D93 /* PhotoEditor+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E145DDCE94BC0C686B8B1CC25F10A8 /* PhotoEditor+Keyboard.swift */; };
 		C107CB052EFC99F726FF9A4BE855F6E3 /* PhotoEditor+Crop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1AADC819FAE7AFF73B560B1114378E /* PhotoEditor+Crop.swift */; };
@@ -101,9 +106,10 @@
 		916637DF3ECD7EBF55E36F9B65FFFE4A /* iOSPhotoEditor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSPhotoEditor-prefix.pch"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0FDE1F286A55EA003B3879B880EB4B2 /* EmojisCollectionViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmojisCollectionViewDelegate.swift; path = iOSPhotoEditor/EmojisCollectionViewDelegate.swift; sourceTree = "<group>"; };
-		AF002234249BBB7900887B8D /* ic_done@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_done@2x.png"; sourceTree = "<group>"; };
-		AF002235249BBB7A00887B8D /* ic_done@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_done@3x.png"; sourceTree = "<group>"; };
-		AF002236249BBB7A00887B8D /* ic_done.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_done.png; sourceTree = "<group>"; };
+		AF002243249C159900887B8D /* icomoon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = icomoon.ttf; path = iOSPhotoEditor/icomoon.ttf; sourceTree = "<group>"; };
+		AF00224F249C167000887B8D /* ic_done.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_done.png; path = iOSPhotoEditor/ic_done.png; sourceTree = "<group>"; };
+		AF002250249C167000887B8D /* ic_done@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_done@3x.png"; path = "iOSPhotoEditor/ic_done@3x.png"; sourceTree = "<group>"; };
+		AF002251249C167100887B8D /* ic_done@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_done@2x.png"; path = "iOSPhotoEditor/ic_done@2x.png"; sourceTree = "<group>"; };
 		AFECBC24E09D0D25F822C27BD944AFD4 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
 		B45138496B85A072654D1D0F8EBBEDE5 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BE7AA98953538FA717E408EA54840EBC /* PhotoEditorViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhotoEditorViewController.swift; path = iOSPhotoEditor/PhotoEditorViewController.swift; sourceTree = "<group>"; };
@@ -216,9 +222,10 @@
 		D983E524AF5A2ABE527D8843F32B7BE0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				AF002236249BBB7A00887B8D /* ic_done.png */,
-				AF002234249BBB7900887B8D /* ic_done@2x.png */,
-				AF002235249BBB7A00887B8D /* ic_done@3x.png */,
+				AF00224F249C167000887B8D /* ic_done.png */,
+				AF002251249C167100887B8D /* ic_done@2x.png */,
+				AF002250249C167000887B8D /* ic_done@3x.png */,
+				AF002243249C159900887B8D /* icomoon.ttf */,
 				6CAA3C243CE695FAD16D8065DAA5C8D8 /* ColorCollectionViewCell.xib */,
 				F5B930981061C40EC3289F34D8B0F779 /* EmojiCollectionViewCell.xib */,
 				1C02C5E6EF7F82C726A36CA39AC61DDD /* LaunchScreen.storyboard */,
@@ -384,14 +391,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6C0B3DDDB15D492D5E15932C1F49500 /* ColorCollectionViewCell.xib in Resources */,
-				AF002238249BBB7A00887B8D /* ic_done@3x.png in Resources */,
+				AF002254249C167100887B8D /* ic_done@3x.png in Resources */,
+				AF002244249C159900887B8D /* icomoon.ttf in Resources */,
 				7E534669B359C9C471441C9F73EAF64B /* EmojiCollectionViewCell.xib in Resources */,
 				D9C6F6624E58EEB922FCA335B403BDC7 /* LaunchScreen.storyboard in Resources */,
+				AF002256249C167100887B8D /* ic_done@2x.png in Resources */,
+				AF002252249C167100887B8D /* ic_done.png in Resources */,
 				66A00D8E0D0CE26771B85DF919C88169 /* PhotoCropEditorBorder.png in Resources */,
 				24561757B95A47A13F74BE2EF46B682E /* PhotoCropEditorBorder@2x.png in Resources */,
 				7974F85B70E2232ACF316DEA9A3FDDEE /* PhotoCropEditorBorder@3x.png in Resources */,
-				AF002237249BBB7A00887B8D /* ic_done@2x.png in Resources */,
-				AF002239249BBB7A00887B8D /* ic_done.png in Resources */,
 				05E1DB913D8E3E11683EE72FA6034B97 /* PhotoEditorViewController.xib in Resources */,
 				E5E86D54A2AC9E1B13E6ABB74BC2CEC3 /* StickerCollectionViewCell.xib in Resources */,
 				1193ACD460A019C2572252253D944FA7 /* StickersViewController.xib in Resources */,
@@ -402,6 +410,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF002257249C167100887B8D /* ic_done@2x.png in Resources */,
+				AF002245249C159900887B8D /* icomoon.ttf in Resources */,
+				AF002255249C167100887B8D /* ic_done@3x.png in Resources */,
+				AF002253249C167100887B8D /* ic_done.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
